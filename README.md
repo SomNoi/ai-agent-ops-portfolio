@@ -20,6 +20,10 @@ Real-world evidence of designing, operating, and hardening a **multi-agent AI sy
 | [examples/register-tasks.ps1](examples/register-tasks.ps1) | Registers the boot-autostart and 5-min watchdog scheduled tasks |
 | [examples/fleet-event-schema.md](examples/fleet-event-schema.md) | JSONL event schema used by the live fleet dashboard |
 | [examples/shared-skills/](examples/shared-skills/) | Fleet-wide skills: routine gate, ETA/late-ping, secret hygiene, data-source label |
+| [examples/shared-skills/bot-install-checklist/](examples/shared-skills/bot-install-checklist/SKILL.md) | Check disk and web-vs-trade-port network limits before installing software on a shared bot machine |
+| [examples/shared-skills/session-resume/](examples/shared-skills/session-resume/SKILL.md) | After a chat reset, auto-read the handoff note and continue pending work without re-briefing |
+| [examples/shared-skills/handoff/](examples/shared-skills/handoff/SKILL.md) | Compress a conversation into a durable 6-section handoff file before clearing chat |
+| [examples/shared-skills/hermes-self-maintain-pack/](examples/shared-skills/hermes-self-maintain-pack/SKILL.md) | Checklist to keep a Hermes gateway alive on Windows: boot task, watchdog, kill-test, safe upgrades |
 
 ## Architecture
 ```mermaid
