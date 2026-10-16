@@ -25,6 +25,15 @@ Real-world evidence of designing, operating, and hardening a **multi-agent AI sy
 | [examples/shared-skills/handoff/](examples/shared-skills/handoff/SKILL.md) | Compress a conversation into a durable 6-section handoff file before clearing chat |
 | [examples/shared-skills/hermes-self-maintain-pack/](examples/shared-skills/hermes-self-maintain-pack/SKILL.md) | Checklist to keep a Hermes gateway alive on Windows: boot task, watchdog, kill-test, safe upgrades |
 
+## Resume & profile
+| Path | What it is |
+|---|---|
+| [resume/RESUME_EN.md](resume/RESUME_EN.md) | Resume (English) |
+| [resume/RESUME_TH.md](resume/RESUME_TH.md) | Resume (Thai / ภาษาไทย) |
+| [resume/LINKEDIN_EXPERIENCE_DRAFT.md](resume/LINKEDIN_EXPERIENCE_DRAFT.md) | LinkedIn experience, education, languages, and skills text |
+
+More reusable agent skills: [SomNoi/agent-skills](https://github.com/SomNoi/agent-skills).
+
 ## Architecture
 ```mermaid
 flowchart TD
